@@ -2,13 +2,25 @@
     background: #f1f1f1;
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 80vh 10vh;
 }
 
-.cabecalho {
-}
- 
-.conteudo {
+.header {
+    background:red;
+    grid-area: header;
 }
 
-.rodape {
+.content {
+    grid-area: content;
+    background: blue;
+}
+
+.footer {
+    grid-area: footer;
+    background: green;
 }

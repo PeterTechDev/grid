@@ -1,0 +1,8 @@
+.destaques {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33,33%);
+  height: calc(100vh - 50px);
+}
+
