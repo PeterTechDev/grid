@@ -11,16 +11,13 @@
 }
 
 .header {
-    background:red;
-    grid-area: header;
+
 }
 
 .content {
-    grid-area: content;
-    background: blue;
+
 }
 
 .footer {
-    grid-area: footer;
-    background: green;
+
 }
