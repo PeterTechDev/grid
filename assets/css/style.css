@@ -7,7 +7,7 @@
     "content"
     "footer";
     grid-template-columns: auto;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 50px auto auto;
 }
 
 .header {
@@ -18,9 +18,15 @@
 }
 
 .content {
-
+    padding: 0 2rem;
+    grid-area: content;
 }
 
 .footer {
-
+    background-color: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
 }
