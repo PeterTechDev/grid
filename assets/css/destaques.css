@@ -46,7 +46,7 @@
 
 .box {
   align-items: flex-end;
-  background: #dcdcdc;
+  /* background: #dcdcdc; */
   display: flex;
   justify-content: center;
 }
