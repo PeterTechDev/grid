@@ -5,7 +5,6 @@
 .popular__content {
   display: flex;
   flex-wrap: wrap;
-  /* grid-area: content; */
   padding:1rem 0;
 }
 
@@ -16,8 +15,6 @@
   "card-image"
   "card-body";
   grid-template-columns: 100%;
-  grid-template-rows: 173px auto;
-  margin-right: 1rem;
   width: calc(20% - 1rem);
 }
 
