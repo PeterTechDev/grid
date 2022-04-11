@@ -5,7 +5,7 @@
 .popular__content {
   display: flex;
   flex-wrap: wrap;
-  grid-area: content;
+  /* grid-area: content; */
   padding:1rem 0;
 }
 
@@ -21,9 +21,9 @@
   width: calc(20% - 1rem);
 }
 
-/* .popular__card:last-child {
+.popular__card:last-child {
   margin-right: 0;
-} */
+}
 
 .popular__card__image {
   grid-area: card-image;
@@ -34,13 +34,13 @@
 .popular__card__body {
   display: grid;
   grid-area: card-body;
-  padding: 0.75rem;
   grid-gap: 0.5rem;
   grid-template-areas:
   "card-header"
   "card-content";
   grid-template-rows: 50px auto;
-  padding-top: 0.75rem;
+  /* padding-top: 0.75rem; */
+  padding: 0.75rem;
 }
 
 .popular__card__title {
@@ -56,8 +56,8 @@
 .popular__card__description {
   color: #333333;
   line-height: 1.5;
-  text-align: justify;
   margin: 1rem 0;
+  text-align: justify;
 }
 
 .popular__title {
