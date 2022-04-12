@@ -28,7 +28,7 @@
   width: 100%;
 }
 
-.popular__card__body {
+.popular__card___body {
   display: grid;
   grid-area: card-body;
   grid-gap: 0.5rem;
