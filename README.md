@@ -1,4 +1,3 @@
 # grid
 
-Projeto para treiar o grid layout
-lknh
+Projeto para treinar o uso do grid layout de forma responsiva.
